@@ -1,0 +1,26 @@
+let number = prompt ("Введите число");
+let result = number * 0.1;
+console.log(result);
+
+let num1 = prompt("Введите первое число");
+let num2 = prompt("Введите второе число");
+let min = Math.min(num1, num2);
+console.log(min);
+
+let number = prompt("Введите число");
+if (number < 100) {
+    console.log("Число меньше 100");
+} else if (number > 100) {
+    console.log("Число больше 100");
+} else {
+    console.log("Число равно 100");
+}
+
+let name = prompt("Введите ваше имя");
+let age = prompt("Введите ваш возраст (в годах)");
+if (age >= 18) {
+    console.log(`Hello, ${name}`);
+} else {
+    console.log(`Hi, ${name}`);
+}
+
