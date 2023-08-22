@@ -1,4 +1,8 @@
-/* Общие стили для всех квадратов */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* Общие стили для всех квадратов */
     .square {
         width: 200px;
         height: 200px;
@@ -31,3 +35,16 @@
         top: calc(50% + 50px);
         left: calc(50% + 50px);
     }
+</style>
+</head>
+<body>
+
+<!-- Зеленый квадрат -->
+<div class="square green"></div>
+<!-- Красный квадрат -->
+<div class="square red"></div>
+<!-- Синий квадрат -->
+<div class="square blue"></div>
+
+</body>
+</html>
